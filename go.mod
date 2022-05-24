@@ -2,6 +2,8 @@ module github.com/kava-labs/kava
 
 go 1.17
 
+require github.com/patrickmn/go-cache v2.1.0+incompatible
+
 require (
 	github.com/cosmos/cosmos-proto v1.0.0-alpha6
 	github.com/cosmos/cosmos-sdk v0.45.4
